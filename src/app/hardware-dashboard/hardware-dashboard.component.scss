@@ -1,0 +1,5 @@
+@import '../../styles/colors.scss';
+
+p {
+    background: map-get($gray, 50);
+}

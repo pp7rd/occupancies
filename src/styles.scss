@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Color Palette */
+:root {
+    --red: #f00;
+    --green: #0f0;
+    --blue: #00f;
+}
+
+header {
+  height: 50px;
+  background: #cc0;
+}
+
+.pagetitle {
+  float: left;
+}
