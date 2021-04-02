@@ -1,14 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 
 // Import styles
-@import 'styles/fonts.scss';
-@import 'styles/colors.scss';
+@import "styles/fonts.scss";
+@import "styles/colors.scss";
 
 header {
-  height: 50px;
-  background: #cc0;
+  height: 120px;
 }
 
 .pagetitle {
   float: left;
+  margin: 5px;
+  padding: 0 0 0 0;
+  vertical-align: middle;
 }
+
+.tab {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    float: left;
+    margin: auto;
+    margin-left: 15px;
+}
+
+.tablink {
+    vertical-align: middle;
+    margin: 5px;
+    width: 150px;
+}
+
